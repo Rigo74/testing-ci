@@ -36,7 +36,7 @@ before_install:
 # This is your main script
 script:
   # Just an example. Do what you deem useful
-  - ./gradlew clean check --scan --parallel
+  #- ./gradlew clean check --scan --parallel
   - ./gradlew clean build
 # If you use Gradle, cleanup the build cache from lock/temporary files
 before_cache:
